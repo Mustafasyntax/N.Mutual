@@ -1,4 +1,6 @@
 package com.orangeHRM.pages;
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -32,6 +34,9 @@ public class AddEmployeePage extends BaseClass {
     
     @FindBy(xpath="//span[@id='pim.navbar.employeeName']")
     public WebElement empCheck;
+    
+    @FindBy (xpath="//form[@id='pimAddEmployeeForm']//label")
+    public List<WebElement> addEmpLabels;
     
     public AddEmployeePage() {
         PageFactory.initElements(driver,this);

@@ -11,7 +11,7 @@ public class BaseClass {
 	public static WebDriver driver;	
 	
 	public static void setUp() {
-
+		ConfigsReader.readProperties(Constants.CREDENTIALS_FILEPATH); //"src/test/resources/configs/credentials.properties";
 		String browser = ConfigsReader.getProperty("browser");
 
 		if (browser.equalsIgnoreCase("chrome")) {
