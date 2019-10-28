@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.syntax</groupId>
-  <artifactId>OrangeHRM</artifactId>
+  <groupId>N.Mutual</groupId>
+  <artifactId>N.Mutual</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
 	<properties>
@@ -24,12 +24,6 @@
 			<version>2.6</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>4.1.0</version>
-		</dependency>
 			<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
 <dependency>
     <groupId>io.cucumber</groupId>
@@ -44,7 +38,20 @@
     <version>4.3.0</version>
     
  </dependency>   
- 
+ <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>3.3.0</version>
+            
+        </dependency>
+ <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+<dependency>
+    <groupId>com.google.code.gson</groupId>
+    <artifactId>gson</artifactId>
+    <version>2.8.5</version>
+</dependency>
+
  
 </dependencies>
 
@@ -75,7 +82,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>Syntax_OrangeHrm</projectName>
+                            <projectName>N.Mutual</projectName>
                             
                             <!-- output directory for the generated report -->
                             <outputDirectory>${project.build.directory}</outputDirectory>

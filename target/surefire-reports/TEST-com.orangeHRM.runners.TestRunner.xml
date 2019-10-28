@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.orangeHRM.runners.TestRunner" time="16.349" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/Mustafa/eclipse-workspace/OrangeHRM/target/test-classes:/Users/Mustafa/eclipse-workspace/OrangeHRM/target/classes:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Mustafa/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Mustafa/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Mustafa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Mustafa/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Mustafa/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Mustafa/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Mustafa/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Mustafa/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Mustafa/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Mustafa/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/Mustafa/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/Users/Mustafa/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/Users/Mustafa/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/Mustafa/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/Users/Mustafa/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/Mustafa/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-java/4.3.0/cucumber-java-4.3.0.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-core/4.3.0/cucumber-core-4.3.0.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/Mustafa/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/Mustafa/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-expressions/6.2.2/cucumber-expressions-6.2.2.jar:/Users/Mustafa/.m2/repository/io/cucumber/datatable/1.1.12/datatable-1.1.12.jar:/Users/Mustafa/.m2/repository/io/cucumber/datatable-dependencies/1.1.12/datatable-dependencies-1.1.12.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-junit/4.3.0/cucumber-junit-4.3.0.jar:/Users/Mustafa/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Mustafa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/Mustafa/eclipse-workspace/OrangeHRM/target/surefire/surefirebooter5777396699348700242.jar /Users/Mustafa/eclipse-workspace/OrangeHRM/target/surefire 2019-06-23T14-35-59_547-jvmRun1 surefire7570158099858899451tmp surefire_01833181353156638409tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/Mustafa/eclipse-workspace/OrangeHRM/target/test-classes:/Users/Mustafa/eclipse-workspace/OrangeHRM/target/classes:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/Mustafa/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/Mustafa/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/Mustafa/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/Mustafa/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/Mustafa/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/Mustafa/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/Mustafa/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/Mustafa/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/Mustafa/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/Mustafa/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/Mustafa/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/Mustafa/.m2/repository/org/apache/poi/poi-ooxml/4.1.0/poi-ooxml-4.1.0.jar:/Users/Mustafa/.m2/repository/org/apache/poi/poi/4.1.0/poi-4.1.0.jar:/Users/Mustafa/.m2/repository/commons-codec/commons-codec/1.12/commons-codec-1.12.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-collections4/4.3/commons-collections4-4.3.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/Mustafa/.m2/repository/org/apache/poi/poi-ooxml-schemas/4.1.0/poi-ooxml-schemas-4.1.0.jar:/Users/Mustafa/.m2/repository/org/apache/xmlbeans/xmlbeans/3.1.0/xmlbeans-3.1.0.jar:/Users/Mustafa/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/Mustafa/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-java/4.3.0/cucumber-java-4.3.0.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-core/4.3.0/cucumber-core-4.3.0.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/Users/Mustafa/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/Mustafa/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-expressions/6.2.2/cucumber-expressions-6.2.2.jar:/Users/Mustafa/.m2/repository/io/cucumber/datatable/1.1.12/datatable-1.1.12.jar:/Users/Mustafa/.m2/repository/io/cucumber/datatable-dependencies/1.1.12/datatable-dependencies-1.1.12.jar:/Users/Mustafa/.m2/repository/io/cucumber/cucumber-junit/4.3.0/cucumber-junit-4.3.0.jar:/Users/Mustafa/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/Mustafa/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/Mustafa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/Mustafa/eclipse-workspace/OrangeHRM"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/Mustafa/eclipse-workspace/OrangeHRM/target/surefire/surefirebooter5777396699348700242.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="user.name" value="Mustafa"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/Mustafa/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/yk/k4kwgb5n58vgjlwxhgkkppyc0000gn/T/"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="user.dir" value="/Users/Mustafa/eclipse-workspace/OrangeHRM"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/Mustafa/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="java.ext.dirs" value="/Users/Mustafa/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="Add Employee Label Verification" classname="Add Employee" time="15.66">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+</failure>
+    <system-out><![CDATA[Starting test:Add Employee Label Verification
+----printing expected labeles from cucumber
+----Printing labels from cucumber dataTable----
+First Names
+Middle Name
+Last Name
+Employee Id
+Location
+Create Login Details
+Ending test:Add Employee Label Verification
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}) on port 32794
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1561325764.621][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+[1561325764.675][WARNING]: This version of ChromeDriver has not been tested with Chrome version 75.
+Jun 23, 2019 2:36:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>
